@@ -8,7 +8,7 @@ There are 2 levels of installation for the DMDEnKF package:
 
 1. First, a bare bones installation that installs all the relevant code, and will allow the running of the dmdenkf example notebook.
 
-2. Second, is the downloading of all the pre-fitted models and data used in the paper which this repository is the accompaniment for. These total around 15gb in memory, hence why the installation is seperated into 2 steps, and allow for the the running of the synthetic and ILI applications notebooks.
+2. Second, is the downloading of all the pre-fitted models and data used in the paper which this repository is the accompaniment for. These total around 15gb in memory, hence why the installation is seperated into 2 steps, and allow for the more expedited running of the synthetic and ILI applications notebooks.
 
 ### Bare Bones Installation - Allows the running of dmdenkf example notebook only.
 
@@ -66,6 +66,8 @@ On the website, hit the download data button in the top right hand corner of the
 Then hit download data in the popup, and extract the received ILINet.csv file into the folder "ili_applications/data/american_flu" within the dmdenkf project.
 
 With this step complete, you now have everything you need to run the ILI applications code, and hence all the code used in the DMDEnKF paper.
+
+It is worth noting that the pre-trained Hankel-DMDEnKF ILI model was too large for githubs free account data limit, so the first time running the ili Hankel-DMDEnKF notebook will require uncommenting of the code labelled "fit Hankel-DMDEnKF".
 
 
 ## Example Usage
