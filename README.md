@@ -8,7 +8,7 @@ There are 2 levels of installation for the DMDEnKF package:
 
 1. First, a bare bones installation that installs all the relevant code, and will allow the running of the dmdenkf example notebook.
 
-2. Second, is the downloading of all the pre-fitted models and data used in the paper which this repository is the accompaniment for. These total around 15gb in memory, hence why the installation is seperated into 2 steps, and allow for the more expedited running of the synthetic and ILI applications notebooks.
+2. Second, is the downloading of all the pre-fitted models and data used in the paper which this repository is the accompaniment for. These total a few 100mb in memory, hence why the installation is seperated into 2 steps, and allow for the more expedited running of the synthetic and ILI applications notebooks.
 
 ### Bare Bones Installation - Allows the running of dmdenkf example notebook only.
 
@@ -51,8 +51,6 @@ Now, making sure you are still in the main project folder titled "dmdenkf", down
 
  `git lfs pull`
 
-NOTE: For this step I recommend you use a wired ethernet connection, as the size of this download is ~15gb.
-
 Once the large files have downloaded, you are now able to run all the examples in the synthetic applications folder.
 
 The final step to be able to run the ILI applications code is to download the ILINet data from the CDC's website at:
@@ -67,7 +65,7 @@ Then hit download data in the popup, and extract the received ILINet.csv file in
 
 With this step complete, you now have everything you need to run the ILI applications code, and hence all the code used in the DMDEnKF paper.
 
-It is worth noting that the pre-trained Hankel-DMDEnKF ILI model was too large for githubs free account data limit, so the first time running the ili Hankel-DMDEnKF notebook will require uncommenting of the code labelled "fit Hankel-DMDEnKF".
+It is worth noting that the pre-trained Hankel-DMDEnKF ILI model was too large for githubs free account data limit, so the first time running the ili Hankel-DMDEnKF notebook will require uncommenting of the code labelled "fit Hankel-DMDEnKF". The running of the Hankel-DMDEnKF in this example can take some time, and all the resultant save files total around 15gb in memory.
 
 
 ## Example Usage
